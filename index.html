@@ -10,104 +10,110 @@
   <title>VET Clinic</title>
 </head>
 <body>
-  <!-- site header started -->
+  <!-- SITE HEADER STARTED -->
   <header class="site-header">
-    <div class="container">
-      <div class="wrapper">
-        <div class="img-box">
-          <a class="site-logo-link" href="index.html">
-            <img class="site-logo" src="./images/sitelogo.svg" width="177" height="86" alt="Vet clicnic logo">
-          </a>
+    <!-- SITE HEADER TOP STARTED -->
+    <div class="site-header__top-wrap">
+      <div class="container">
+        <div class="site-header__top">
+          <address class="site-header__addresss clinic-address">
+            <a class="clinic-address__link" href="https://goo.gl/maps/fRWa93BqaqrFSgum7" target="blank">
+              г. Мариуполь, проспект Победы, 48а
+            </a>
+            <ul class="clinic-address__phone-list">
+              <li class="clinic-address__phone-item clinic-address__phone-item--first">
+                <a class="clinic-address__phone-link" href="tel:0676347574">
+                  (067) 634 -75 - 74
+                </a>
+              </li>
+              <li class="clinic-address__phone-item clinic-address__phone-item--second">
+                <a class="clinic-address__phone-link" href="tel:0637570131">
+                  (0637) 57 - 01 - 31
+                </a>
+              </li>
+              <li class="clinic-address__phone-item clinic-address__phone-item--last">
+                <a class="clinic-address__phone-link" href="tel:0982664389">
+                  (098) 266 - 43 - 89
+                </a>
+              </li>
+            </ul>
+            <ul class="clinic-address clinic-wday-list">
+              <li class="clinic-wday-list__item">
+                <strong class="clinic-wday-list__day clinic-wday-list__day--first">
+                  Пн - Пт
+                </strong>
+                <time class="clinic-wday-list__hour" datetime="08:00">
+                  8:00
+                </time>
+              </li>
+              <li class="clinic-wday-list__item">
+                <strong class="clinic-wday-list__day">
+                  Сб - Вс
+                </strong>
+                <time class="clinic-wday-list__hour" datetime="08:00">
+                  8:00
+                </time>
+              </li>
+            </ul>       
+          </address>
         </div>
-        <div class="site-header__wrapper">
-          <div class="site-header__adreess-box">
-            <address class="site-header__address">
-              <a class="adress-link" href="https://goo.gl/maps/SdD7hPG6PQ3hWqWp7" target="blank">
-                г. Мариуполь, проспект Победы, 48а
-              </a>
-              <ul class="site-header__tel-list">
-                <li class="site-tel-item site-tel-item--first">
-                  <a class="site-header__tel-link" href="tel:0676347574">
-                    (067) 634 -75 - 74
-                  </a>
-                </li>
-                <li class="site-tel-item">
-                  <a class="site-header__tel-link" href="tel:0637570131">
-                    (0637) 57 - 01 - 31
-                  </a>
-                </li>
-                <li class="site-tel-item">
-                  <a class="site-header__tel-link" href="tel:0982664389">
-                    (098) 266 - 43 - 89
-                  </a>
-                </li>
-              </ul>
-              <ul class="site-header__time time-list">
-                <li class="time-list__item">
-                  <strong class="time-list__day time-list__day--first">
-                    Пн - Пт
-                  </strong>
-                  <time class="time-list__time">
-                    08:00
-                  </time>
-                </li>
-                <li class="time-list__item time-list__item--last">
-                  <strong class="time-list__day">
-                    Сб - Вс
-                  </strong>
-                  <time class="time-list__time time-list__time--last">
-                    08:00
-                  </time>
-                </li>
-              </ul>
-            </address>
+      </div>
+    </div>
+    <!-- SITE HEADER TOP END -->
+    <!-- SITE NAVBAR STARTED -->
+    <div class="site-header__navbar-wrapper">
+      <div class="container">
+        <div class="navbar-box">
+          <div class="site-logo-box">
+            <a class="site-logo-link" href="index.html">
+              <img class="site-logo" src="./images/sitelogo.svg" width="177" height="86" alt="Veterenary clinic site logo">
+            </a>
           </div>
-          <div class="site-header__navbox">
-            <nav class="site-header__nav navigation">
-              <ul class="navigation__list">
-                <li class="navigation__item navigation__item--first">
-                  <a href="#" class="navigation__link">
-                    Главная
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                    О Клинике
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                    Наши Услуги
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                    Полезные Статьи
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                    FAQ
-                  </a>
-                </li>
-                <li class="navigation__item navigation__item--contact">
-                  <a href="#" class="navigation__link ">
-                    Контакты
-                  </a>
-                </li>
-                <li class="navigation__item navigation__item--last">
-                  <a href="#" class="navigation__link navigation__link--last">
-                    Задать вопрос
-                  </a>
-                </li>
-              </ul>
-            </nav>
+          <nav class="site-header__nav navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item navigation__item--first">
+                <a href="#" class="navigation__link">
+                  Главная
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  О Клинике
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  Наши Услуги
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  Полезные Статьи
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  FAQ
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="site-header__link-wrap">
+            <a class="site-header__ques-link" href="#">
+              Задать вопрос
+            </a>
           </div>
         </div>
       </div>
     </div>
+    <!-- SITE NAVBAR END -->
   </header>
-  <!-- site header end -->
+  <!-- SITE HEADER END -->
   <!-- site main started -->
   <main class="site-main">
     <!-- SECTION STARTED -->
@@ -158,11 +164,12 @@
     </article>
     <!-- SITE ARTICLEE END -->
     <!-- SERVICES SECTION STARTED -->
-    <section class="services">
-      <div class="container">
+    <div class="container">
+      <section class="services">
         <h2 class="services__title">
           Наши услуги
         </h2>
+        <button class="services__btn"></button>
         <ol class="services__list">
           <li class="services__item services__item--first">
             <h3 class="services__item__title">
@@ -195,6 +202,7 @@
             </h3>
           </li>
         </ol>
+        <button class="services__btn-last"></button>
         <div class="services__initial__box initial">
           <div class="initial__img__box">
             <img class="initial__image" width="524" height="332" src="./images/cat.png" alt="There is a picture of a yellow cat">
@@ -221,8 +229,8 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- SERVICES SECTION END -->
     <!--- NEXT ARTICLE SECTION STARTED  -->
     <article class="news-article">
@@ -248,9 +256,9 @@
         <ul class="advice__list">
           <li class="advice__item">
             <img class="advice__item-img" src="./images/cat22.png" width="305" height="180" alt="there is a picture of a yellow cat with its mouth open">
-            <p class="advice__img-time">
+            <time class="advice__img-time" datetime="2020-08-28">
               28.08.2020
-            </p>
+            </time>
             <div class="advice__item-titlebox">
               <h3 class="advice__item-subtile">
                 Ультразвуковая чистка зубов
@@ -287,9 +295,9 @@
                   </a>
                 </li>
                 <li class="advice__item-time">
-                  <p class="advice__img-time advice__img-time--second">
+                  <time class="advice__img-time advice__img-time--second" datetime="2020-08-29">
                     29.08.2020
-                  </p>
+                  </time>
                 </li>
               </ul>
               <div class="advice__si-titlebox">
@@ -311,9 +319,9 @@
           </li>
           <li class="advice__item">
             <img class="advice__item-img" src="./images/dog.png" width="305" height="180" alt="the little puppy is being treated by the mediciner">
-            <p class="advice__img-time">
+            <time class="advice__img-time" datetime="2020-07-21">
               21.07.2020
-            </p>
+            </time>
             <div class="advice__item-titlebox">
               <h3 class="advice__item-subtile">
                 Когда привавать питомца?
@@ -408,37 +416,39 @@
             <strong class="time-list__day time-list__day--one">
               Пн - Пт
             </strong>
-            <time class="time-list__time">
-              08:00
+            <time class="time-list__time" datetime="08:00">
+              8:00
             </time>
           </li>
           <li class="site-footer__time-item">
             <strong class="time-list__day">
               Сб - Вс
             </strong>
-            <time class="time-list__time">
-              08:00
+            <time class="time-list__time" datetime="08:00">
+              8:00
             </time>
           </li>
         </ul>
         <div class="site-footer__adress-wrap">
           <address class="site-footer__address">
-            г. Мариуполь, проспект Победы, 48а
+            <a class="site-footer__add-link" href="https://goo.gl/maps/fRWa93BqaqrFSgum7" target="blank">
+              г. Мариуполь, проспект Победы, 48а
+            </a>
           </address>
         </div>
         <ul class="site-footer__tel-list tel-list">
           <li class="tel-list__item tel-list__first-item">
-            <a href="tel:0676347574" class="tel-list__link">
+            <a class="tel-list__link" href="tel:0676347574" >
               (067) 634 -75 - 74
             </a>
           </li>
           <li class="tel-list__item">
-            <a href="tel:0637570131" class="tel-list__link">
+            <a class="tel-list__link" href="tel:0637570131">
               (0637) 57 - 01 - 31
             </a>
           </li>
           <li class="tel-list__item">
-            <a href="tel:0982664389" class="tel-list__link">
+            <a class="tel-list__link" href="tel:0982664389">
               (098) 266 - 43 - 89
             </a>
           </li>
