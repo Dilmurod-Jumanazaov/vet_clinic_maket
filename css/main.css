@@ -11,6 +11,13 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 @font-face {
   font-display: swap; 
   font-family: "FuturaPT";
@@ -1926,14 +1933,22 @@ body {
   background-position: calc(50% - 20px) calc(50% - 50px);
 }
 .hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 174px;
   padding-left: 223px;
 }
 .hero__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 23px 0 33px;
   padding-left: 0;
   list-style: none;
@@ -1952,8 +1967,12 @@ body {
   text-decoration: none;
 }
 .hero__titlebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .hero__title {
   margin-top: 0;
@@ -1987,17 +2006,25 @@ body {
   color: #949494; 
 }
 .hero__linkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .hero__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 15px 35px;
   color: #fff;
   border: 1px solid #333;
   border-radius: 3px;
   background-color: #333;
   text-decoration: none;
+  -webkit-transition: border 0.4s ease,background-color 0.4s ease, color 0.4s ease;
+  -o-transition: border 0.4s ease,background-color 0.4s ease, color 0.4s ease;
   transition: border 0.4s ease,background-color 0.4s ease, color 0.4s ease;
 }
 .hero__link--first {
@@ -2008,6 +2035,8 @@ body {
   border-radius: 3px;
   background-color: #ffbd54;
   text-decoration: none;
+  -webkit-transition: border 0.4s ease,background-color 0.4s ease, color 0.4s ease;
+  -o-transition: border 0.4s ease,background-color 0.4s ease, color 0.4s ease;
   transition: border 0.4s ease,background-color 0.4s ease, color 0.4s ease;
 }
 .hero__link::before {
@@ -2044,6 +2073,7 @@ body {
 }
 .hero__card-list {
   margin: 0;
+  margin-top: 42px;
   padding-left: 0;
 }
 .hero__item {
@@ -2143,6 +2173,8 @@ body {
   background-size: cover;
 }
 .user__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 112px;
 }
@@ -2190,6 +2222,22 @@ body {
   padding: 17px 0 0 22px;
   border: 1px solid #fff;
   resize: none;
+}
+::-webkit-input-placeholder {
+  line-height: 21px;
+  color: #949494;
+}
+::-moz-placeholder {
+  line-height: 21px;
+  color: #949494;
+}
+:-ms-input-placeholder {
+  line-height: 21px;
+  color: #949494;
+}
+::-ms-input-placeholder {
+  line-height: 21px;
+  color: #949494;
 }
 ::placeholder {
   line-height: 21px;
